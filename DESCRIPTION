@@ -1,0 +1,15 @@
+Package: PreMSIm
+Type: Package
+Title: Prediction of microsatellite instability (MSI) based on gene
+        expression profiles in cancer
+Version: 1.0
+Date: 2019-11-28
+Author: Lin Li, Xiaosheng Wang
+Maintainer: Lin Li <cpu_lilin@126.com>, Xiaosheng Wang <xiaosheng.wang@cpu.edu.cn>
+Description: The package is used to predict microsatellite instability based on the expression profiles of a 15-gene panel.
+LazyData: true
+Imports: class
+License: GPL-3
+RoxygenNote: 6.1.1
+NeedsCompilation: no
+Packaged: 2019-11-26 05:40:01 UTC; lilin
