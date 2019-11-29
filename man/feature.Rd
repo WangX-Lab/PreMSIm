@@ -4,19 +4,19 @@
 \name{feature}
 \alias{feature}
 \title{Feature}
-\format{A data frame with 19 rows and 2 columns. The column names
+\format{A data frame with 15 rows and 2 columns. The column names
 are as follows:
 \describe{
   \item{Symbol}{Official Gene Symbol}
   \item{ID}{Gene Entrez ID} 
 }}
 \source{
-The 19 gene features were selected through pan-cancer 10-fold cross validation model.
+The 15 gene features were selected through pan-cancer 10-fold cross validation model.
 }
 \usage{
 feature
 }
 \description{
-The features are made up of 19 genes.
+The features are made up of 15 genes.
 }
 \keyword{datasets}

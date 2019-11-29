@@ -4,7 +4,7 @@
 \name{training_data}
 \alias{training_data}
 \title{Training set}
-\format{A dataframe with 1383 rows (tumor samples) and 20 columns (MSI status of tumor samples, and 19 gene features). The column names
+\format{A dataframe with 1383 rows (tumor samples) and 16 columns (MSI status of tumor samples, and 15 gene features). The column names
 are as follows:
 \describe{
   \item{MSI_status}{MSI_status}
@@ -31,6 +31,6 @@ are as follows:
 training_data
 }
 \description{
-The training set is the expression profiles of a 19-gene panel from TCGA RNA-Seq pan-cancer (involving colon, gastric, and endometrial cancers) dataset.
+The training set is the expression profiles of a 15-gene panel from TCGA RNA-Seq pan-cancer (involving colon, gastric, and endometrial cancers) dataset.
 }
 \keyword{datasets}
