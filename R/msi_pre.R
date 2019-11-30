@@ -14,7 +14,7 @@
 #' \item{MSI_status}{Prediction results ("1" indicates MSI-high, and "0" MSI-low/microsatellite stability).}
 #' @author Lin Li <cpu_lilin@@126.com>, Xiaosheng Wang <xiaosheng.wang@@cpu.edu.cn>
 #' @examples
-#' path = system.file("extdata", "example.txt", package = "PreMSI", mustWork = TRUE)
+#' path = system.file("extdata", "example.txt", package = "PreMSIm", mustWork = TRUE)
 #' input_data = data_pre(path, type = "ID")
 #' msi_pre(input_data)
 msi_pre <- function(input_data) {

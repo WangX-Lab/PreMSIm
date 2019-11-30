@@ -11,7 +11,7 @@
 #' @return A m*n matrix contains the expression values of n matched genes in m tumor samples. 
 #' @author Lin Li <cpu_lilin@@126.com>, Xiaosheng Wang <xiaosheng.wang@@cpu.edu.cn>
 #' @examples
-#' path = system.file("extdata", "example.txt", package = "PreMSI", mustWork = TRUE)
+#' path = system.file("extdata", "example.txt", package = "PreMSIm", mustWork = TRUE)
 #' data_pre(path, type = "ID")
 data_pre <- function(input.path, type = c("Symbol", "ID")) {
 
