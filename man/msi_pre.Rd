@@ -21,7 +21,7 @@ A dataframe with 2 columns:
 One or multiple tumor samples to be predicted as MSI or non-MSI based on their expression profiles of the gene panel.
 }
 \examples{
-path = system.file("extdata", "example.txt", package = "PreMSI", mustWork = TRUE)
+path = system.file("extdata", "example.txt", package = "PreMSIm", mustWork = TRUE)
 input_data = data_pre(path, type = "ID")
 msi_pre(input_data)
 }

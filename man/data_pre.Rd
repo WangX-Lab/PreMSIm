@@ -21,7 +21,7 @@ A m*n matrix contains the expression values of n matched genes in m tumor sample
 The "input.path" refers to the path for input file. The "type" refers to official gene symbol or Entrez gene ID.
 }
 \examples{
-path = system.file("extdata", "example.txt", package = "PreMSI", mustWork = TRUE)
+path = system.file("extdata", "example.txt", package = "PreMSIm", mustWork = TRUE)
 data_pre(path, type = "ID")
 }
 \author{
