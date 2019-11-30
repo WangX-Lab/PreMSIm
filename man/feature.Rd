@@ -8,7 +8,7 @@
 are as follows:
 \describe{
   \item{Symbol}{Official Gene Symbol}
-  \item{ID}{Gene Entrez ID} 
+  \item{ID}{Entrez Gene ID} 
 }}
 \source{
 The 15 gene features were selected through pan-cancer 10-fold cross validation model.
