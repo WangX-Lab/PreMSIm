@@ -14,21 +14,21 @@ Before the development and evaluation of classifier, all RSEM-normalized RNA-Seq
 
 | Gene symbol | Entrez gene ID | Gene Name |
 | :------: | :------: | :------: |
-| ***DDX27*** | 55661 | DEAD-box helicase 27 |
-| ***EPM2AIP1*** | 9852 | EPM2A interacting protein 1 |
-| ***HENMT1*** | 113802 | HEN methyltransferase 1 |
-| ***LYG1*** | 129530 | lysozyme g1 |
-| ***MLH1*** | 4292 | mutL homolog 1 |
-| ***MSH4*** | 4438 | mutS homolog 4 |
-| ***NHLRC1*** | 378884 | NHL repeat containing E3 ubiquitin protein ligase 1 |
-| ***NOL4L*** | 140688 | nucleolar protein 4 like |
-| ***RNLS*** | 55328 | renalase, FAD dependent amine oxidase |
-| ***RPL22L1*** | 200916 | ribosomal protein L22 like 1 |
-| ***RTF2*** | 51507 | replication termination factor 2 |
-| ***SHROOM4*** | 57477 | shroom family member 4 |
-| ***SMAP1*** | 60682 | small ArfGAP 1 |
-| ***TTC30A*** | 92104 | tetratricopeptide repeat domain 30A |
-| ***ZSWIM3*** | 140831 | zinc finger SWIM-type containing 3 |
+| *DDX27* | 55661 | DEAD-box helicase 27 |
+| *EPM2AIP1* | 9852 | EPM2A interacting protein 1 |
+| *HENMT1* | 113802 | HEN methyltransferase 1 |
+| *LYG1* | 129530 | lysozyme g1 |
+| *MLH1* | 4292 | mutL homolog 1 |
+| *MSH4* | 4438 | mutS homolog 4 |
+| *NHLRC1* | 378884 | NHL repeat containing E3 ubiquitin protein ligase 1 |
+| *NOL4L* | 140688 | nucleolar protein 4 like |
+| *RNLS* | 55328 | renalase, FAD dependent amine oxidase |
+| *RPL22L1* | 200916 | ribosomal protein L22 like 1 |
+| *RTF2* | 51507 | replication termination factor 2 |
+| *SHROOM4* | 57477 | shroom family member 4 |
+| *SMAP1* | 60682 | small ArfGAP 1 |
+| *TTC30A* | 92104 | tetratricopeptide repeat domain 30A |
+| *ZSWIM3* | 140831 | zinc finger SWIM-type containing 3 |
 
 
 
