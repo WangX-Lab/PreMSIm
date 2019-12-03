@@ -11,6 +11,7 @@ Before the development and evaluation of classifier, all RSEM-normalized RNA-Seq
 
 
 The 15 gene features used in the classification algorithm
+
 | Gene symbol | Entrez gene ID | Gene Name |
 | ------ | ------ | ------ |
 | DDX27 | 55661 | DEAD-box helicase 27 |
