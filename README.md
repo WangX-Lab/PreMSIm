@@ -10,25 +10,25 @@ Microsatellite instability (MSI) is a genomic property of the cancers with defec
 Before the development and evaluation of classifier, all RSEM-normalized RNA-Seq gene expression values were added 1 and then log2-transformed, and all RNA-Seq and microarray gene expression values were scaled to the range [0,1] in both training and test datasets. Within each training set, we utilized the t-test to identify the most significant genes in distinguishing MSI-high cancers from MSI-low/microsatellite stability (MSS) cancers. The top 30 genes with the largest absolute t-scores were selected as predictors in the classification model. After feature selection, we used the k-Nearest Neighbors (*k*-NN, *k*=5) classifier for class prediction. We first used 10-fold cross validation (CV) to evaluate classifier performance. Next, we built the MSI prediction model PreMSIm, which included the TCGA pan-cancer (involving colon, gastric, and endometrial cancers) dataset as the training set, the *k*-NN (*k*=5) classification algorithm, and 15 gene features. The 15 gene features were the genes which were commonly selected across all loops of the pan-cancer 10-fold CV model. These genes included ***DDX27***, ***EPM2AIP1***, ***HENMT1***,  ***LYG1***, ***MLH1***, ***MSH4***, ***NHLRC1***, ***NOL4L***, ***RNLS***, ***RPL22L1***, ***RTF2***, ***SHROOM4***, ***SMAP1***, ***TTC30A***, and ***ZSWIM3***. 
 
 
-The 15 gene features used in the classification algorithm
+                             The 15 gene features used in the classification algorithm
 
 | Gene symbol | Entrez gene ID | Gene Name |
 | :------: | :------: | :------: |
-| DDX27 | 55661 | DEAD-box helicase 27 |
-| EPM2AIP1 | 9852 | EPM2A interacting protein 1 |
-| HENMT1 | 113802 | HEN methyltransferase 1 |
-| LYG1 | 129530 | lysozyme g1 |
-| MLH1 | 4292 | mutL homolog 1 |
-| MSH4 | 4438 | mutS homolog 4 |
-| NHLRC1 | 378884 | NHL repeat containing E3 ubiquitin protein ligase 1 |
-| NOL4L | 140688 | nucleolar protein 4 like |
-| RNLS | 55328 | renalase, FAD dependent amine oxidase |
-| RPL22L1 | 200916 | ribosomal protein L22 like 1 |
-| RTF2 | 51507 | replication termination factor 2 |
-| SHROOM4 | 57477 | shroom family member 4 |
-| SMAP1 | 60682 | small ArfGAP 1 |
-| TTC30A | 92104 | tetratricopeptide repeat domain 30A |
-| ZSWIM3 | 140831 | zinc finger SWIM-type containing 3 |
+| ***DDX27*** | 55661 | DEAD-box helicase 27 |
+| ***EPM2AIP1*** | 9852 | EPM2A interacting protein 1 |
+| ***HENMT1*** | 113802 | HEN methyltransferase 1 |
+| ***LYG1*** | 129530 | lysozyme g1 |
+| ***MLH1*** | 4292 | mutL homolog 1 |
+| ***MSH4*** | 4438 | mutS homolog 4 |
+| ***NHLRC1*** | 378884 | NHL repeat containing E3 ubiquitin protein ligase 1 |
+| ***NOL4L*** | 140688 | nucleolar protein 4 like |
+| ***RNLS*** | 55328 | renalase, FAD dependent amine oxidase |
+| ***RPL22L1*** | 200916 | ribosomal protein L22 like 1 |
+| ***RTF2*** | 51507 | replication termination factor 2 |
+| ***SHROOM4*** | 57477 | shroom family member 4 |
+| ***SMAP1*** | 60682 | small ArfGAP 1 |
+| ***TTC30A*** | 92104 | tetratricopeptide repeat domain 30A |
+| ***ZSWIM3*** | 140831 | zinc finger SWIM-type containing 3 |
 
 
 
