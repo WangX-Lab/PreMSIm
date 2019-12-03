@@ -13,7 +13,7 @@ Before the development and evaluation of classifier, all RSEM-normalized RNA-Seq
 The 15 gene features used in the classification algorithm
 
 | Gene symbol | Entrez gene ID | Gene Name |
-| :------:: | :------: | :------: |
+| :------: | :------: | :------: |
 | DDX27 | 55661 | DEAD-box helicase 27 |
 | EPM2AIP1 | 9852 | EPM2A interacting protein 1 |
 | HENMT1 | 113802 | HEN methyltransferase 1 |
