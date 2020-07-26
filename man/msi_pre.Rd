@@ -7,7 +7,7 @@
 msi_pre(input_data)
 }
 \arguments{
-\item{input_data}{Tumor samples to be predicted.}
+\item{input_data}{Tumor samples to be predicted. (Note: Gene expression values of the samples need to be normalized (scaling to [0, 1] range) by the function \link{data_pre} first)}
 }
 \value{
 A dataframe with 2 columns:
