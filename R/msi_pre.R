@@ -6,7 +6,7 @@
 #' @details
 #' One or multiple tumor samples to be predicted as MSI or non-MSI based on their expression profiles of the gene panel.
 #' 
-#' @param input_data Tumor samples to be predicted.
+#' @param input_data Tumor samples to be predicted. (Note: Gene expression values of the samples need to be normalized (scaling to [0, 1] range) by the function \link{data_pre} first)
 #' @import class
 #' @export
 #' @return A dataframe with 2 columns:
