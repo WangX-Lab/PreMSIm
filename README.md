@@ -55,3 +55,6 @@ path = system.file("extdata", "example.txt", package = "PreMSIm", mustWork = TRU
 input_data = data_pre(path, type = "ID")
 msi_pre(input_data)
 ```
+
+## Citation
+Li, L., Q. Feng, and X. Wang, PreMSIm: An R package for predicting microsatellite instability from the expression profiling of a gene panel in cancer. Comput Struct Biotechnol J, 2020. 18: p. 668-675. https://doi.org/10.1016/j.csbj.2020.03.007
