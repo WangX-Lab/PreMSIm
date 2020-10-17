@@ -57,4 +57,4 @@ msi_pre(input_data)
 ```
 
 ## Citation
-Li, L., Q. Feng, and X. Wang, PreMSIm: An R package for predicting microsatellite instability from the expression profiling of a gene panel in cancer. Comput Struct Biotechnol J, 2020. 18: p. 668-675. https://doi.org/10.1016/j.csbj.2020.03.007
+Li L, Feng Q, Wang X: PreMSIm: An R package for predicting microsatellite instability from the expression profiling of a gene panel in cancer. Computational and structural biotechnology journal 2020, 18:668-675. https://doi.org/10.1016/j.csbj.2020.03.007
