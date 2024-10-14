@@ -20,7 +20,7 @@
 msi_pre <- function(input_data) {
 
 	## Check arguments
-	if (missing(input_data) || !class(input_data) %in% c("matrix", "data.frame") || dim(input_data)[2] < 5)
+	if (missing(input_data) || !class(input_data)[1] %in% c("matrix", "data.frame") || dim(input_data)[2] < 5)
 		stop("'input_data' is missing or incorrect")
 	
 	## Predict MSI
